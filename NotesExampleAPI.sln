@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesExampleAPI.PCL", "NotesExampleAPI.PCL/NotesExampleAPI.PCL.csproj", "{a5106c34-6aa7-4938-9830-d90ea37d63b6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesExampleAPI.Tests", "NotesExampleAPI.Tests/NotesExampleAPI.Tests.csproj", "{b2580bdd-8ae0-4e98-ac6b-aed208133262}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {a5106c34-6aa7-4938-9830-d90ea37d63b6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {a5106c34-6aa7-4938-9830-d90ea37d63b6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {a5106c34-6aa7-4938-9830-d90ea37d63b6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {a5106c34-6aa7-4938-9830-d90ea37d63b6}.Release|Any CPU.Build.0 = Release|Any CPU
+        {b2580bdd-8ae0-4e98-ac6b-aed208133262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {b2580bdd-8ae0-4e98-ac6b-aed208133262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {b2580bdd-8ae0-4e98-ac6b-aed208133262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {b2580bdd-8ae0-4e98-ac6b-aed208133262}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(SolutionProperties) = preSolution
+        HideSolutionNode = FALSE
+    EndGlobalSection
+EndGlobal
