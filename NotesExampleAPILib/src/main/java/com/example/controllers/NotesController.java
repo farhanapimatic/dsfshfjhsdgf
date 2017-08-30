@@ -57,7 +57,7 @@ public class NotesController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5027804542503033323L;
+            private static final long serialVersionUID = 5722998058950506901L;
             {
                     put( "q", q );
             }});
@@ -66,7 +66,7 @@ public class NotesController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 4955088564140201685L;
+            private static final long serialVersionUID = 5657071840782895587L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
                     put( "accept", "application/json" );
@@ -153,7 +153,7 @@ public class NotesController extends BaseController {
 
         //process template parameters
         APIHelper.appendUrlWithTemplateParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5377082713776145022L;
+            private static final long serialVersionUID = 5377286637784296976L;
             {
                     put( "id", id );
             }});
@@ -162,7 +162,7 @@ public class NotesController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5524249854714184212L;
+            private static final long serialVersionUID = 5125883640224613377L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
             }
@@ -240,7 +240,7 @@ public class NotesController extends BaseController {
 
         //process template parameters
         APIHelper.appendUrlWithTemplateParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 4824444297155671004L;
+            private static final long serialVersionUID = 5082443006930677674L;
             {
                     put( "id", id );
             }});
@@ -249,7 +249,7 @@ public class NotesController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5210333009295773986L;
+            private static final long serialVersionUID = 4768818769788633526L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
                     put( "accept", "application/json" );
@@ -338,7 +338,7 @@ public class NotesController extends BaseController {
 
         //process template parameters
         APIHelper.appendUrlWithTemplateParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5051872503170385621L;
+            private static final long serialVersionUID = 5060618789649560467L;
             {
                     put( "id", id );
             }});
@@ -347,7 +347,7 @@ public class NotesController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5757220782977163613L;
+            private static final long serialVersionUID = 5634583193723758537L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
                     put( "accept", "application/json" );
@@ -438,7 +438,7 @@ public class NotesController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5136087271274625090L;
+            private static final long serialVersionUID = 4994417438572782384L;
             {
                     put( "user-agent", "APIMATIC 2.0" );
                     put( "accept", "application/json" );
